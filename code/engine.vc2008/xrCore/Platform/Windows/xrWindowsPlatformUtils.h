@@ -6,6 +6,7 @@ class XRCORE_API xrWindowsPlatformUtils : public xrGenericPlatformUtils
 public:
 	virtual LPCSTR GetName() override;
 	virtual int ShowCursor(bool bShowCursor) override;
+	virtual const char* GetRender() override;
 
 	xrWindowsPlatformUtils& operator=(const xrWindowsPlatformUtils& Other) = delete;
 };
