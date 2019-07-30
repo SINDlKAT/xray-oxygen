@@ -4,7 +4,7 @@
 
 //////////////////////////////////////////////////////////////
 // Desc		: Abstract miscellaneous functions for platform
-// Author	: Giperion
+// Author	: Giperion, ForserX
 //////////////////////////////////////////////////////////////
 // Oxygen Engine 2016-2019
 //////////////////////////////////////////////////////////////
@@ -18,4 +18,7 @@ public:
 
 	/// Show or hide system mouse cursor
 	virtual int ShowCursor(bool bShowCursor) = 0;
+	
+	// Get current render library
+	virtual const char* GetRender() = 0;
 };
