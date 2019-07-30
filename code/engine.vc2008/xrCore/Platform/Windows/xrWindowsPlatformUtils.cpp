@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////////////
 // Desc		: Windows miscellaneous functions
-// Author	: Giperion
+// Author	: Giperion, ForserX
 //////////////////////////////////////////////////////////////
 // Oxygen Engine 2016-2019
 //////////////////////////////////////////////////////////////
@@ -17,4 +17,9 @@ LPCSTR xrWindowsPlatformUtils::GetName()
 int xrWindowsPlatformUtils::ShowCursor(bool bShowCursor)
 {
 	return ::ShowCursor(bShowCursor);
+}
+
+const char* xrWindowsPlatformUtils::GetRender()
+{
+	return "xrRender_R4.dll";
 }
