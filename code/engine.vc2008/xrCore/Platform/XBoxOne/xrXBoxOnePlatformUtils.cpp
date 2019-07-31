@@ -21,5 +21,5 @@ int xrXBoxOnePlatformUtils::ShowCursor(bool bShowCursor)
 
 const char* xrXBoxOnePlatformUtils::GetRender()
 {
-	return "xrRender_RX.dll";
+	return "xrRender_R4_X.dll";
 }
