@@ -93,6 +93,11 @@
 #if PLATFORM == WINDOWS
 	#include "Platform/Windows/xrWindowsPlatformUtils.h"
 #elif PLATFORM == XBOXONE
+        #inckude "Platform/XBoxOne/xrXBoxOnePlatformUtils.h"
+#elif PLATFORM == SONYPS4
+        #inlude "Platform/SonyPlayStation/xrPSPlatformUtils.h"
+#else 
+        #error Your platform is'n support... 
 #endif
 
 #include "clsid.h"
