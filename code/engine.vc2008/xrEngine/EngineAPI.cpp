@@ -7,7 +7,7 @@
 
 extern XRCORE_API xr_vector<xr_token> vid_quality_token;
 
-const char* r4_name = PlatformUtils.GetRender();
+inline const char* r4_name = PlatformUtils.GetRender();
 
 //////////////////////////////////////////////////////////////////////
 // Construction/Destruction
