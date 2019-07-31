@@ -21,5 +21,5 @@ int xrPSPlatformUtils::ShowCursor(bool bShowCursor)
 
 const char* xrPSPlatformUtils::GetRender()
 {
-  return "xrRender_PS4";
+  return "xrRender_GNM";
 }
